@@ -1,0 +1,38 @@
+[Adblock Plus 2.0]
+! Title: aoichigo special
+! Description: Google・LINE・Yahoo広告・トラッキング撃退 ＆ 駅メモ！許可
+! Version: 1.1.2
+! Last modified: 2026-02-13
+
+! --- 駅メモ！ (ステーションメモリーズ！) とアワメモ許可 ---
+@@||ekimemo.com^
+@@||mobile-game-i.com^
+@@||our-rails.ekimemo.com^
+
+! --- Google広告 撃退 ---
+||googleadservices.com^
+||googlesyndication.com^
+||doubleclick.net^
+||adservice.google.com^
+||ads.google.com^
+
+! --- トラッキング・分析 ---
+||google-analytics.com^
+||googletagmanager.com^
+||firebaseinstallations.googleapis.com^
+||app-measurement.com^
+||crashlytics.com^
+||telemetry.sdk.google.com^
+
+! --- LINE&yahooの広告・トラッキング ---
+||ad.line.me^
+||obs.line-apps.com^
+||static.line-ads.com^
+||line-ads.com^
+||lgv6.line-apps.com^
+
+||yads.yahoo.co.jp^
+||yads.yjtag.jp^
+||s.yimg.jp/images/listing/tool/cv/conversion.js
+||analytics.yahoo.com^
+||b92.yahoo.co.jp^
