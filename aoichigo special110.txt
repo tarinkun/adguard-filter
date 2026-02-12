@@ -5,7 +5,6 @@
 ! Last modified: 2026-02-12
 
 ! --- 駅メモ！ (ステーションメモリーズ！) 通行許可 ---
-! ゲーム本体の通信を優先的に通す設定だ
 @@||ekimemo.com^
 @@||mobile-game-i.com^
 @@||our-rails.ekimemo.com^
@@ -17,7 +16,7 @@
 ||adservice.google.com^
 ||ads.google.com^
 
-! --- トラッキング・分析（2.6GB節約の立役者） ---
+! --- トラッキング・分析 ---
 ||google-analytics.com^
 ||googletagmanager.com^
 ||firebaseinstallations.googleapis.com^
