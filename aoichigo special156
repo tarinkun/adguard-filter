@@ -1,0 +1,115 @@
+[Adblock Plus 2.0]
+! Title: aoichigo special
+! Description: 上書きしちゃえば僕の思い通り♡
+! Version: 1.5.6
+! Last modified: 2026-07-29
+
+! --- ホワイトリスト (許可設定) ---
+! 駅メモ！ (ステーションメモリーズ！) 関連
+@@||ekimemo.com^
+@@||mobile-game-i.com^
+@@||our-rails.ekimemo.com^
+@@||native.denco.social.mfac.jp^
+
+! マカフィー WiFi Protect チェック
+@@||wifiprotectcheck.mcafee.com^
+
+! Yahoo!知恵袋 (個別回答ページ)
+@@||detail.chiebukuro.yahoo.co.jp^
+
+! Gemini (AI) 通信
+@@||gemini.google.com^
+
+! Google システム・認証・プッシュ通知
+@@||appassets.androidplatform.net^
+@@||mtalk.google.com^
+@@||geomobileservices-pa.googleapis.com^
+@@||proactivebackend-pa.googleapis.com^
+@@||clients.google.com^
+@@||clients2.google.com^
+@@||clients3.google.com^
+@@||clients4.google.com^
+@@||clients5.google.com^
+
+! --- 広告・トラッキング 撃退 (ドメイン) ---
+||googleadservices.com^
+||googlesyndication.com^
+||doubleclick.net^
+||adservice.google.com^
+||ads.google.com^ 
+||google-analytics.com^
+||googletagmanager.com^
+||firebaseinstallations.googleapis.com^
+||firebaselogging.googleapis.com^
+||app-measurement.com^
+||crashlytics.com^
+||telemetry.sdk.google.com^
+||adjust.com^
+||hotjar.com^
+||mixpanel.com^
+||segment.io^
+||scorecardresearch.com^
+||quantserve.com^
+||newrelic.com^
+||amplitude.com^
+||branch.io^
+||log.outbrain.com^
+||pixel.quantserve.com^
+
+! 行動追跡・アドネットワーク
+||criteo.com^
+||criteo.net^
+||adnxs.com^
+||connect.facebook.net^
+||ads-twitter.com^
+
+! LINE 関連
+||ad.line.me^
+||obs.line-apps.com^
+||static.line-ads.com^
+||line-ads.com^
+||lgv6.line-apps.com^
+||stickershop.line-scdn.net^
+
+! Yahoo! JAPAN 関連
+||yads.yahoo.co.jp^
+||yads.yjtag.jp^
+||s.yimg.jp/images/listing/tool/cv/conversion.js
+||analytics.yahoo.com^
+||b92.yahoo.co.jp^
+
+! --- 広告枠・要素ブロック (見た目のクリーンアップ) ---
+! Yahoo! JAPAN の広告枠消去
+yahoo.co.jp##.Ad
+yahoo.co.jp##div[id*="Ad"]
+yahoo.co.jp##div[class*="ad-"]
+yahoo.co.jp##aside[class*="Ad"]
+
+! Google 検索結果などの広告枠消去
+google.co.jp##.ad_ccl
+google.co.jp##div[id^="adw"]
+
+! 汎用的な広告コンテナの非表示
+##.ad-banner
+##.ad-container
+##div[class^="ad_"]
+
+! エロ系ブロック
+||123chat.jp^
+||123chat.com^
+||anotherheroine.com^
+! temu
+||temu.com^$removeparam=_x_ads_account
+||temu.com^$removeparam=_x_ads_creative_id
+||temu.com^$removeparam=_x_from
+||temu.com^$removeparam=adg_ctx
+||temu.com^$removeparam=mrk_rec
+! --- アプリ内広告ネットワーク ---
+||unityads.unity3d.com^
+||applovin.com^
+||applvn.com^
+||inmobi.com^
+||ironsrc.mobi^
+||vungle.com^
+||pangle.io^
+||tapjoy.com^
